@@ -3,6 +3,8 @@
 
 
 <img width="1408" height="768" alt="AL content generator" src="https://github.com/user-attachments/assets/a5466bb9-172e-444d-8713-a7fb0f328f1f" />
+
+
 ### AI-Powered Content Creation Engine 🚀
 Data-Driven Automation with Zapier, Python, and GPT-4o
 
