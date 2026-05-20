@@ -1,10 +1,6 @@
-# ✦ Inkforge — AI Content Generator
+ AI Content Generator by ZApier 
 
-> A sleek, React-based AI content generator powered by the Claude API with real-time streaming output.
 
-![Inkforge Preview](docs/preview.png)
-
----
 
 ## Features
 
