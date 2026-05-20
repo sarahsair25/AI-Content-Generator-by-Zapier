@@ -1,0 +1,40 @@
+.tone-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tone-pill {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 7px 16px;
+  font-family: var(--sans);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all 0.15s;
+  letter-spacing: 0.02em;
+}
+
+.tone-pill:hover {
+  border-color: var(--border2);
+  color: var(--text);
+}
+
+.tone-pill--active {
+  border-color: var(--pill-color) !important;
+  color: var(--text) !important;
+  background: color-mix(in srgb, var(--pill-color) 12%, transparent) !important;
+}
+
+.tone-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}

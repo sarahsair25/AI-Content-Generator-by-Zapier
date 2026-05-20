@@ -1,12 +1,8 @@
+# ✦ Inkforge — AI Content Generator
 
+> A sleek, React-based AI content generator powered by the Claude API with real-time streaming output.
 
-
-
-<img width="1408" height="768" alt="AL content generator" src="https://github.com/user-attachments/assets/a5466bb9-172e-444d-8713-a7fb0f328f1f" />
-
-
-### AI Content Generator
-
+![Inkforge Preview](docs/preview.png)
 
 ---
 

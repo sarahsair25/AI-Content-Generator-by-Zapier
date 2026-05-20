@@ -1,0 +1,66 @@
+.generate-btn {
+  width: 100%;
+  padding: 16px 24px;
+  background: var(--accent);
+  color: #0a0a0f;
+  font-family: var(--sans);
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: transform 0.1s, opacity 0.15s, box-shadow 0.2s;
+  box-shadow: 0 0 30px rgba(232, 255, 71, 0.2);
+}
+
+.generate-btn:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 0 40px rgba(232, 255, 71, 0.35);
+}
+
+.generate-btn:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.generate-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.generate-btn--loading {
+  background: var(--surface2);
+  color: var(--text-muted);
+  box-shadow: none;
+  border: 1px solid var(--border);
+}
+
+.gen-spark {
+  font-size: 16px;
+}
+
+/* Three-dot bounce */
+.gen-dots {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+.gen-dots span {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent);
+  animation: dot-bounce 1.2s ease-in-out infinite;
+}
+.gen-dots span:nth-child(1) { animation-delay: 0s; }
+.gen-dots span:nth-child(2) { animation-delay: 0.2s; }
+.gen-dots span:nth-child(3) { animation-delay: 0.4s; }
+
+@keyframes dot-bounce {
+  0%, 60%, 100% { transform: translateY(0); }
+  30%            { transform: translateY(-5px); }
+}
